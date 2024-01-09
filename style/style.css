@@ -6,13 +6,17 @@ display: flex;
 width: 1320px;
 height: 600px;
 border-radius: 16px;
-background: linear-gradient;
 margin: 100px;
+border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+/* background: 070211; */
+flex-shrink: 0;
+/* background: black; */
 }
 
 .banner-title-1, .banner-title-2{
 position: absolute;
-color: gold;
+color: #ffffff;
 background-color: none;
 text-align: center;
 /* padding: 170px 500px 380px; */
@@ -24,11 +28,57 @@ line-height: normal;
 display: flex;
 }
 .banner-title-1{
-    padding: 150px 500px 380px;
+    padding: 130px 500px 400px;
     font-size: 40px;    
 }
 
 .banner-title-2{
    padding: 230px 340px 170px; 
    font-size: 60px;
+}
+
+.discount{
+width: 1600px;
+height: 7335px;
+}
+
+.discount > h1{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 120px 470px 0;
+}
+
+.discount > h3{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 0px 500px 0;
+}
+
+.discount > h2{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0px 500px 0;
+}
+
+.discount > img{
+width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+padding: 50px 400px 0;
+display: flex;
 }
